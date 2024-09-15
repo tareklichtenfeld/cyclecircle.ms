@@ -1,0 +1,91 @@
+/* Move block container higher */
+div.block-container.st-emotion-cache-1jicfl2.ea3mdgi5 {
+  margin-top: 1em;
+}
+
+/* Adjustments for the logo image*/
+
+img {
+  display: block;
+  margin-top: 1.5em;
+}
+
+/* Centering text in each gray box */
+div.css-1ht1j8u.e16fv1kl0 {
+  text-align: center;
+}
+
+
+/*button explanation*/
+div.st-emotion-cache-1m3plho.ef3psqc13{
+  background-color: #fdff8c;
+}
+
+/* Third line of Row */
+div.css-wnm74r.e16fv1kl3 {
+  margin-left: 30%;
+  margin-right: 20%;
+}
+
+/* popup window */ 
+div.st-emotion-cache-jpcrdf.e1f1d6gn2 {
+  background-color: #fdff8c;
+  padding: 3% 3% 3% 3%;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: purple;
+}
+
+/* Row 1 */
+div.st-emotion-cache-1r6slb0.e1f1d6gn3 {
+    background-color: #fdff8c;
+    padding: 3% 3% 3% 3%;
+    border-width: 20px;
+    border-radius: 15px;
+    border-color: purple;
+}
+
+/* Row 2 */
+div.st-emotion-cache-12w0qpk.e1f1d6gn3 {
+  background-color: #fdff8c;
+  padding: 3% 3% 3% 3%;
+  border-width: 20px;
+  border-radius: 15px;
+  border-color: purple;
+}
+
+div.st-emotion-cache-1l8gdore1nzilvr4 {
+  size: 50px;
+}
+
+/*Sankey Plot*/
+div.st-emotion-cache-1v0mbdj.e115fcil1 {
+  background-color: white;
+  padding: 3% 3% 3% 3%;
+  border-width: 20px;
+  border-radius: 15px;
+  border-color:white;
+}
+
+/* div.st-emotion-cache-0.e1f1d6gn0 {
+  height: 500px;
+}
+  
+
+/* Hide hamburger menu and footer */
+div.css-r698ls.e8zbici2 {
+  display: none;
+}
+
+footer.css-ipbk5a.egzxvld4 {
+  display: none;
+}
+
+footer.css-12gp8ed.eknhn3m4 {
+  display: none;
+}
+
+div.vg-tooltip-element {
+  display: none;
+}
+
