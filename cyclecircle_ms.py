@@ -16,10 +16,10 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-
-
 st.header('cyclecircle.ms')
-st.logo("cyclecircle_logo_big.png")
+
+
+st.logo("cyclecircle_logo_long_small.png")
 
 #-----SIDEBAAARRR----------------------------------------------------------
 st.sidebar.header('cyclecircle.ms')
@@ -36,3 +36,5 @@ pages = {
         }
 pg = st.navigation(pages)
 pg.run()
+
+st.sidebar.link_button("buy me a coffee", "https://paypal.me/cyclecirclems?country.x=DE&locale.x=de_DE")
