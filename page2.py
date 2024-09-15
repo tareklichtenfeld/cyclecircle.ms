@@ -47,7 +47,7 @@ with eingabe1:
     st.title("`Startpunkt`")
     location_geopy= st.text_input("","Münster")
 
-    geolocator = Nominatim(user_agent="user_agent")
+    geolocator = Nominatim(user_agent="cyclecircle_ms")
     location = geolocator.geocode(f"{location_geopy}")
     st.write(f"Ich starte meinen Weg zum Groupride in der Regel von {location.address}.")
 
