@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.set_page_config(page_title="cyclecircle.ms", layout="wide",
+st.set_page_config(page_title="local loops", layout="wide",
                    page_icon=":material/directions_bike:")
 
 hide_st_style = """
@@ -16,13 +16,13 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-st.header('cyclecircle.ms')
+st.header('local loops')
 
 
 st.logo("cyclecircle_logo_long_small.png")
 
 #-----SIDEBAAARRR----------------------------------------------------------
-st.sidebar.header('cyclecircle.ms')
+st.sidebar.header('local loops')
 
 page1 = st.Page("page1.py", title="Übersicht", icon=":material/overview_key:")
 page2 = st.Page("page2.py", title="find your groupride", icon=":material/directions_bike:")
@@ -37,4 +37,4 @@ pages = {
 pg = st.navigation(pages)
 pg.run()
 
-st.sidebar.link_button("buy me a coffee", "https://paypal.me/cyclecirclems?country.x=DE&locale.x=de_DE")
+st.sidebar.link_button("buy us a coffee", "https://paypal.me/cyclecirclems?country.x=DE&locale.x=de_DE")
