@@ -2,7 +2,7 @@ import streamlit as st
 
 
 st.set_page_config(page_title="local loops", layout="wide",
-                   page_icon=":material/directions_bike:")
+                   page_icon="local-loops-logo-browser.png")
 
 hide_st_style = """
             <style>
